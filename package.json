@@ -1,0 +1,23 @@
+{
+  "name": "getmovieurl",
+  "version": "1.0.0",
+  "description": "0. 项目依赖于puppeteer nodejs\r 1. movieURL.js 通过清单source/movieSourceList.txt 去找下载地址结果保留在source/movieurl.txt\r 2. compare.js 获取a.source/compareSource b.source/compareTarget c.source/compare.txt清单  根据c逐项在a中寻找，找到了就算匹配上，然后移动到b，适用于按照清单在种子文件或电影文件中挑选出",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wollld/getMovieURL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wollld/getMovieURL/issues"
+  },
+  "homepage": "https://github.com/wollld/getMovieURL#readme"
+}
